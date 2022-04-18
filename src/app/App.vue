@@ -39,6 +39,8 @@
         <Aside />
       </el-aside>
     </div>
+
+    <div class="app-float-menu">AAA</div>
     <el-container>
       <el-main>
         <el-row>
@@ -51,6 +53,21 @@
     </el-container>
   </el-container>
 </template>
+
+<style scoped>
+.app-float-menu {
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  right: 0px;
+  bottom: 0px;
+  background-color: white;
+  opacity: 0.8;
+  z-index: 99999;
+  filter: blur(7px);
+  backdrop-filter: blur(5px);
+}
+</style>
 
 <script>
 import Aside from "../components/Aside";

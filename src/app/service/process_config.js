@@ -207,5 +207,15 @@ export const INSTANCE_CONFIGS = [
     author: "Lazy",
     github: "https://github.com/LazyCreeper",
     category: [TYPE_MINECRAFT_JAVA, TYPE_MINECRAFT_GEYSER]
+  },
+  {
+    fileName: "[MCDR] config.yml",
+    type: "yml",
+    info: "MCDReforged 服务端管理工具配置文件",
+    path: "config.yml",
+    redirect: "mcdr/config.yml",
+    author: "Huaji_MUR233",
+    github: "https://github.com/HuajiMUR233",
+    category: [TYPE_MINECRAFT_JAVA]
   }
 ];

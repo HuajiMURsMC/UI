@@ -85,6 +85,7 @@ import bdsServerProperties from "../../components/mc_process_config/bds_server.p
 import mohistYml from "../../components/mc_process_config/mohist.yml";
 import paperYml from "../../components/mc_process_config/paper.yml";
 import geyserYml from "../../components/mc_process_config/geyser.yml";
+import mcdrConfigYml from "../../components/mc_process_config/mcdr_config.yml"
 
 export default {
   components: {
@@ -97,7 +98,8 @@ export default {
     "bds/server.properties": bdsServerProperties,
     "mohist/mohist.yml": mohistYml,
     "paper/paper.yml": paperYml,
-    "geyser/config.yml": geyserYml
+    "geyser/config.yml": geyserYml,
+    "mcdr/config.yml": mcdrConfigYml
   },
   data: function () {
     return {
